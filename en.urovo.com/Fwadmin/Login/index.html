@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<!-- Mirrored from en.urovo.com/Fwadmin/Login/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 05 Mar 2024 17:47:05 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+<meta charset="utf-8"/>
+<title>深圳方维网络管理系统</title>
+<meta name="author" content="DeathGhost"/>
+<meta name="author" content="深圳方维网络科技有限公司  http://www.szfangwei.cn">
+<link rel="stylesheet" href="../../Public/Fwadmin/css/login241d.css?20171207_2"/>
+<link rel="icon" href="../../Public/Fwadmin/images/favicon.ico" type="image/x-icon"/>
+<link href="../../Public/Fwadmin/css/zui.min.html" rel="stylesheet">
+<script src="../../Public/Fwadmin/js/jquery-1.11.1.min.js"></script>
+<script src="../../Public/Fwadmin/js/jquery.validate-1.13.1.js"></script>
+<script src="../../Public/Fwadmin/js/zui.min.js"></script>
+<script src="../../Public/Fwadmin/assets/layer/layer.js"></script>
+</head>
+<body>
+<form id="Login">
+<div id="bg">
+<div class="login clearfix">
+<div class="login-left">
+<div class="logo">
+<img src="../../Public/Fwadmin/images/logo.png" width="160"/>
+<br/>
+方维网络后台管理系统
+</div>
+<div class="login-left-input">
+<input type="text" class="login-left-yhm" placeholder="管理员帐号" name="admin_name"/>
+<input type="password" class="login-left-mm" placeholder="管理员密码" name="password"/>
+</div>
+<div class="login-right-yzm clearfix">
+<input type="text" class="login-right-yzmtx" placeholder="输入验证码" name="code">
+<div class="login-right-yzmtp">
+<img src="verify.png" style="cursor:pointer;" onClick="this.src=this.src+'?'+Math.random()" id="verify" width="99%" height="45">
+</div>
+</div>
+<div class="login-right-checkbox">
+<input name="remember" value="1" type="checkbox" style="vertical-align:-3px;"/>
+一周内自动登录
+<span>建议在网吧或公共电脑上取消保持登录选项</span>
+</div>
+<input type="submit" value="登录" class="login-button">
+</div>
+<div id="sw" class="login-right">
+<iframe src="http://zy2.fwwl.net/ad/index.html" frameborder="0" scrolling="no" width="450px" height="580px"></iframe>
+</div>
+</div>
+</div>
+</form>
+<script src="../../Public/Fwadmin/js/jquery.validate-1.13.1.js"></script>
+<script>$().ready(function () {$('#Login').validate({rules:{"admin_name":{"required":true},"password":{"required":true},"code":{"required":true}},messages:{"admin_name":{"required":"\u8bf7\u8f93\u5165\u7528\u6237\u540d"},"password":{"required":"\u8bf7\u8f93\u5165\u5bc6\u7801"},"code":{"required":"\u8bf7\u8f93\u5165\u9a8c\u8bc1\u7801"}},showErrors:function (errorMap,errorList) {var msg ="";$.each(errorList,function (i,v) {layer.tips(v.message,v.element,{time:1000 });return false;});},onkeyup:false,onfocusout:false,submitHandler:function () {$('#Login').find("input[type='submit']").attr('autocomplete','off').prop('disabled',true);$.ajax({type:"post",url :"/Fwadmin/Login/index.html",dataType:'json',data:$('#Login').serialize(),success:function(data){if(data['status']>0){layer.msg(data['info'],{icon:6});setTimeout(function(){window.location.href=data['url'];},2000);window.location.href =data.url }else{layer.msg(data['info'],{icon:5});$('#verify').click() }
+$('#Login').find("input[type='submit']").attr('autocomplete','off').prop('disabled',false);}
+});}
+});});</script></body>
+
+<!-- Mirrored from en.urovo.com/Fwadmin/Login/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 05 Mar 2024 17:47:09 GMT -->
+</html>

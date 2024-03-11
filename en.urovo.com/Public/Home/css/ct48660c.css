@@ -1,0 +1,1435 @@
+/**
+ * @Description: CT48专题页样式表
+ * @Author: MaXueWei
+ * @Date: 2023-06-21 15:07:14
+ * @LastEditors: MaXueWei
+ * @LastEditTime: 2023-06-21 15:07:14
+ */
+/* ==================== ct48 样式 - PC端 Start ==================== */
+@font-face {
+  font-family: 'Alibaba-PuHuiTi-Bold';
+  src: url('../font2/Alibaba-PuHuiTi-Bold.43055473.ttf');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Alibaba-PuHuiTi-Light';
+  src: url('../font2/AlibabaSans-Light.html');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Alibaba-PuHuiTi-Medium';
+  src: url('../font2/Alibaba-PuHuiTi-Medium.b57e5596.ttf');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Alibaba-PuHuiTi-Regular';
+  src: url('../font2/Alibaba-PuHuiTi-Regular.b8bbe691.ttf');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+.p-box .mxw-box {
+  max-width: 67.71vw;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+.p-box .ct48-section1 .image img,
+.p-box .ct48-section2 .image img,
+.p-box .ct48-section3 .image img,
+.p-box .ct48-section4 .image img,
+.p-box .ct48-section5 .image img,
+.p-box .ct48-section6 .image img,
+.p-box .ct48-section7 .image img,
+.p-box .ct48-section8 .image img,
+.p-box .ct48-section9 .image img,
+.p-box .ct48-section10 .image img,
+.p-box .ct48-section11 .image img,
+.p-box .ct48-section12 .image img,
+.p-box .ct48-section13 .image img {
+  width: 100%;
+}
+.p-box .ct48-section1 {
+  position: relative;
+}
+.p-box .ct48-section1 .ct48-video {
+  width: 100%;
+  height: 100vh;
+}
+.p-box .ct48-section1 .ct48-video video {
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+  object-fit: cover;
+}
+.p-box .ct48-section1 .info {
+  position: absolute;
+  left: 13.71vw;
+  top: 21.2vw;
+  color: #fff;
+  max-width: 42%;
+}
+.p-box .ct48-section1 .text1 {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  margin-bottom: 1.56vw;
+}
+.p-box .ct48-section1 .text1 strong {
+  font-size: 5.49vw;
+  line-height: 1;
+  letter-spacing: 0.21vw;
+  background: linear-gradient(to bottom, #fff, #bad9ff);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-family: "Alibaba-PuHuiTi-Medium";
+}
+.p-box .ct48-section1 .text1 span {
+  line-height: 2.24vw;
+  border: 0.05vw solid;
+  border-radius: 5.21vw;
+  padding: 0.3vw 0.5vw 0.21vw;
+  padding-left: 1vw;
+  margin-left: 0.78vw;
+  font-size: 1.31vw;
+  margin-bottom: 0.52vw;
+  font-weight: 200;
+  letter-spacing: 1px;
+  font-family: "Alibaba-PuHuiTi-Light";
+  line-height: 1;
+}
+.p-box .ct48-section1 .text2 {
+  font-size: 1.89vw;
+  line-height: 1;
+  font-weight: 200;
+  letter-spacing: 1px;
+  font-family: "Alibaba-PuHuiTi-Light";
+}
+.p-box .ct48-section2 {
+  background: url(../images/ct48-img008.html) no-repeat center;
+  background-size: cover!important;
+  padding-top: 3.49vw;
+  padding-bottom: 1.93vw;
+}
+.p-box .ct48-section2 .itembox {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.p-box .ct48-section2 .item .img img {
+  width: 100%;
+}
+.p-box .ct48-section2 .item:nth-child(1) {
+  width: 22.4vw;
+}
+.p-box .ct48-section2 .item:nth-child(1) .img:nth-child(1) {
+  margin-bottom: 1.88vw;
+}
+.p-box .ct48-section2 .item:nth-child(2) {
+  width: 18.75vw;
+}
+.p-box .ct48-section2 .item:nth-child(2) .img:nth-child(1) {
+  margin-bottom: 1.41vw;
+}
+.p-box .ct48-section2 .item:nth-child(3) {
+  width: 23.44vw;
+}
+.p-box .ct48-section2 .item:nth-child(3) .img:nth-child(1) {
+  margin-bottom: 0.68vw;
+}
+/* ---------------------- ct48 - 板块2.1 start ----------------------  */
+.p-box .ct48-section2-1 {
+  padding-top: 3.65vw;
+  padding-bottom: 2.08vw;
+  position: relative;
+  background: url(../images/ct48-img008.html) no-repeat center;
+  background-size: cover;
+}
+
+.p-box .ct48-section2-1 .itembox {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.p-box .ct48-section2-1 .item {
+}
+
+.p-box .ct48-section2-1 .item:nth-child(1) {
+  width: 22.92vw;
+}
+
+.p-box .ct48-section2-1 .item:nth-child(2) {
+  width: 18.75vw;
+}
+
+.p-box .ct48-section2-1 .item:nth-child(3) {
+  width: 23.13vw;
+}
+
+.p-box .ct48-section2-1 .item:nth-child(3n-1) {}
+
+.p-box .ct48-section2-1 .item-card {
+  position: relative;
+}
+.p-box .ct48-section2-1 .item-card:nth-child(1)~.item-card{
+  margin-top: 1.56vw;
+}
+
+.p-box .ct48-section2-1 .item-card .bg-img {
+  border-radius: 1.56vw;
+  overflow: hidden;
+}
+
+.p-box .ct48-section2-1 .item-card .bg-img img {
+  width: 100%;
+}
+
+.p-box .ct48-section2-1 .item-card .title {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: #fff;
+  font-family: "Alibaba-PuHuiTi-Regular";
+  font-size: 1.15vw;
+  line-height: 1.2;
+  text-align: center;
+  width: 100%;
+  padding: 1.04vw;
+}
+
+.p-box .ct48-section2-1 .item .title .text2{
+  font-family: "Alibaba-PuHuiTi-Light";
+  font-size: 0.94vw;
+  opacity: 0.8;
+}
+/* ---------------------- ct48 - 板块2.1 end ----------------------  */
+.p-box .ct48-section3 {
+  position: relative;
+}
+.p-box .ct48-section3 .info {
+  position: absolute;
+  top: 4.17vw;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+}
+.p-box .ct48-section3 h1 {
+  font-size: 2.8vw;
+  line-height: 1.1;
+  margin-bottom: 0.94vw;
+  font-weight: 400;
+  font-family: "Alibaba-PuHuiTi-Medium";
+}
+.p-box .ct48-section3 h2 {
+  font-size: 0.94vw;
+  line-height: 1.2;
+  font-weight: 400;
+  font-family: "Alibaba-PuHuiTi-Light";
+}
+.p-box .ct48-section4 {
+  position: relative;
+}
+.p-box .ct48-section4 .info {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: right;
+  color: #fff;
+  padding-top: 13.02vw;
+}
+.p-box .ct48-section4 h1 {
+  font-size: 2.8vw;
+  margin-bottom: 2.86vw;
+  font-family: "Alibaba-PuHuiTi-Medium";
+  font-weight: 400;
+  max-width: 60%;
+  margin-right: 0;
+  margin-left: auto;
+}
+.p-box .ct48-section4 .text2 {
+  font-size: 1.04vw;
+  font-weight: 200;
+  line-height: 1.8;
+  margin-bottom: 7.29vw;
+  font-family: "Alibaba-PuHuiTi-Light";
+  max-width: 60%;
+  margin-right: 0;
+  margin-left: auto;
+}
+.p-box .ct48-section4 .text3 {
+  background-color: rgba(255, 255, 255, 0.15);
+  border-radius: 0.52vw;
+  display: inline-flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0.78vw 1.04vw;
+  margin-bottom: 1.04vw;
+  font-size: 1.1vw;
+}
+.p-box .ct48-section4 .text3 strong {
+  font-size: 1.93vw;
+  margin-right: 0.52vw;
+  font-family: "Alibaba-PuHuiTi-Medium";
+  font-weight: 400;
+  line-height: 0.9;
+}
+.p-box .ct48-section4 .text3 span {
+  font-size: 1.3vw;
+  line-height: 1.1;
+  font-family: "Alibaba-PuHuiTi-Light";
+}
+.p-box .ct48-section4 .text4 {
+  font-size: 1.25vw;
+  color: rgba(255, 255, 255, 0.51);
+  font-family: "Alibaba-PuHuiTi-Light";
+  max-width: 30%;
+  margin-right: 0;
+  margin-left: auto;
+  line-height: 1.6;
+}
+.p-box .ct48-section5 {
+  position: relative;
+}
+.p-box .ct48-section5 .info {
+  position: absolute;
+  left: 10%;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  color: #fff;
+  padding-top: 3.13vw;
+  max-width: 80%;
+}
+.p-box .ct48-section5 h1 {
+  font-size: 2.9vw;
+  margin-bottom: 2.08vw;
+  font-family: "Alibaba-PuHuiTi-Medium";
+  font-weight: 400;
+  line-height: 1.1;
+}
+.p-box .ct48-section5 .desc {
+  font-size: 1.24vw;
+  line-height: 1.8;
+  font-family: "Alibaba-PuHuiTi-Light";
+}
+.p-box .ct48-section6 {
+  position: relative;
+}
+.p-box .ct48-section6 .info {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  padding-top: 13.02vw;
+}
+.p-box .ct48-section6 .info h1 {
+  font-size: 2.7vw;
+  line-height: 1.2;
+  margin-bottom: 2.08vw;
+  font-weight: 400;
+  font-family: "Alibaba-PuHuiTi-Medium";
+  max-width: 60%;
+  margin-left: 0;
+  margin-right: auto;
+}
+.p-box .ct48-section6 .info .desc {
+  font-size: 1.14vw;
+  font-weight: 200;
+  line-height: 1.8;
+  margin-bottom: 2.08vw;
+  font-family: "Alibaba-PuHuiTi-Light";
+  max-width: 60%;
+  margin-left: 0;
+  margin-right: auto;
+}
+.p-box .ct48-section7 {
+  overflow: hidden;
+  background: url(../images/ct48-img014.html) no-repeat center;
+  background-size: cover;
+  height: 43.75vw;
+  position: relative;
+}
+.p-box .ct48-section7 .image {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 38.33vw;
+}
+.p-box .ct48-section7 .info {
+  padding-right: 12.25vw;
+  color: #fff;
+  height: 100%;
+  padding-top: 13.02vw;
+  width: 50%;
+  margin-right: 0;
+  margin-left: auto;
+}
+.p-box .ct48-section7 .info h1 {
+  font-size: 2.7vw;
+  line-height: 1.1;
+  margin-bottom: 1.56vw;
+  font-family: "Alibaba-PuHuiTi-Medium";
+  font-weight: 400;
+}
+.p-box .ct48-section7 .info .text2 {
+  font-size: 1.14vw;
+  line-height: 1.8;
+  margin-bottom: 2.6vw;
+  font-family: "Alibaba-PuHuiTi-Light";
+}
+.p-box .ct48-section7 .info .itembox {
+  display: flex;
+  align-items: stretch;
+}
+.p-box .ct48-section7 .info .item {
+  background-color: rgba(255, 255, 255, 0.09);
+  padding: 0.52vw 1.04vw;
+  border-radius: 0.52vw;
+}
+.p-box .ct48-section7 .info .item:nth-child(1) {
+  margin-right: 1.04vw;
+}
+.p-box .ct48-section7 .info .item span {
+  display: block;
+  font-size: 1.3vw;
+  line-height: 1.1;
+  font-family: "Alibaba-PuHuiTi-Light";
+}
+.p-box .ct48-section7 .info .item strong {
+  display: block;
+  margin-top: 0.52vw;
+  font-size: 1.93vw;
+  line-height: 1.1;
+  font-family: "Alibaba-PuHuiTi-Medium";
+  font-weight: 400;
+}
+.p-box .ct48-section7 .info > .mxw-box {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.p-box .ct48-section8 {
+  position: relative;
+}
+.p-box .ct48-section8 .info {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  padding-top: 13.02vw;
+}
+.p-box .ct48-section8 .info h1 {
+  font-size: 2.9vw;
+  line-height: 1.1;
+  margin-bottom: 2.08vw;
+  font-family: "Alibaba-PuHuiTi-Medium";
+  font-weight: 400;
+}
+.p-box .ct48-section8 .info .desc {
+  font-size: 1.34vw;
+  line-height: 1.6;
+  margin-bottom: 4.17vw;
+  font-weight: 200;
+  font-family: "Alibaba-PuHuiTi-Light";
+  max-width: 50%;
+}
+.p-box .ct48-section8 .info .text2 {
+  border-radius: 0.52vw;
+  background-color: rgba(255, 255, 255, 0.09);
+  padding: 0.52vw 1.04vw;
+  font-size: 1.3vw;
+  display: table;
+  line-height: 1.3;
+  font-family: "Alibaba-PuHuiTi-Light";
+}
+.p-box .ct48-section8 .info .text2 strong {
+  font-size: 1.93vw;
+  margin-left: 0.26vw;
+  font-family: "Alibaba-PuHuiTi-Medium";
+  font-weight: 400;
+}
+.p-box .ct48-section9 .info .text2 strong {
+  margin-left: 0;
+}
+.p-box .ct48-section10 .info {
+  padding-top: 4.69vw;
+}
+.p-box .ct48-section11 {
+  position: relative;
+}
+.p-box .ct48-section11 .body {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding-top: 9.02vw;
+}
+.p-box .ct48-section11 .info {
+  color: #fff;
+  max-width: 60%;
+}
+.p-box .ct48-section11 .info h1 {
+  font-size: 2.7vw;
+  line-height: 1.1;
+  margin-bottom: 2.08vw;
+  font-family: "Alibaba-PuHuiTi-Medium";
+  font-weight: 400;
+}
+.p-box .ct48-section11 .info .desc {
+  font-size: 1.14vw;
+  line-height: 1.8;
+  margin-bottom: 4.17vw;
+  font-family: "Alibaba-PuHuiTi-Light";
+}
+.p-box .ct48-section11 .info .itembox {
+  display: flex;
+  align-items: stretch;
+  justify-content: flex-start;
+  margin-bottom: 1.88vw;
+}
+.p-box .ct48-section11 .info .item {
+  border-radius: 0.52vw;
+  background-color: rgba(255, 255, 255, 0.16);
+  padding: 0.52vw 1.56vw;
+  font-size: 1vw;
+}
+.p-box .ct48-section11 .info .item:first-child {
+  margin-right: 2.08vw;
+}
+.p-box .ct48-section11 .info .item strong {
+  font-size: 1.93vw;
+  line-height: 1.1;
+  margin-bottom: -0.54vw;
+  font-family: "Alibaba-PuHuiTi-Medium";
+  font-weight: 400;
+  display: block;
+}
+.p-box .ct48-section11 .info .item span {
+  font-size: 1.3vw;
+  line-height: 1.1;
+  font-family: "Alibaba-PuHuiTi-Light";
+}
+.p-box .ct48-section11 .info .itembox2 {
+  display: flex;
+  align-items: flex-start;
+}
+.p-box .ct48-section11 .info .item2 {
+  text-align: center;
+  margin-right: 2.6vw;
+}
+.p-box .ct48-section11 .info .item2:last-child {
+  margin-right: 0;
+}
+.p-box .ct48-section11 .info .item2 .image {
+  width: 9.9vw;
+  border-radius: 100%;
+  overflow: hidden;
+  margin-bottom: 1.04vw;
+}
+.p-box .ct48-section11 .info .item2 .text {
+  font-size: 1.14vw;
+  color: #fff;
+  font-family: "Alibaba-PuHuiTi-Light";
+}
+.p-box .ct48-section13 {
+  position: relative;
+}
+.p-box .ct48-section13 .info {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  padding-top: 250px;
+}
+.p-box .ct48-section13 .mxw-box {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.p-box .ct48-section13 .content{
+  max-width: 60%;
+}
+.p-box .ct48-section13 .text1 {
+  display: table;
+  font-size: 1.56vw;
+  color: #111927;
+  background: url(../images/ct48-img049.png) no-repeat center;
+  background-size: 100%;
+  border-radius: 0.63vw;
+  overflow: hidden;
+  padding: 0.47vw 0.89vw;
+  font-family: "ALIBABA-PUHUITI-REGULAR";
+  line-height: 1;
+  margin-bottom: 1.3vw;
+}
+.p-box .ct48-section13 .text2 {
+  font-size: 2.5vw;
+  line-height: 1.2;
+  color: #fff;
+  font-weight: bold;
+  margin-bottom: 6.25vw;
+}
+.p-box .ct48-section13 .itembox {
+  display: flex;
+  align-items: stretch;
+}
+.p-box .ct48-section13 .item {
+  display: flex;
+  align-items: flex-end;
+  color: #fff;
+}
+.p-box .ct48-section13 .item:nth-child(1) {
+  margin-right: 2.6vw;
+}
+.p-box .ct48-section13 .item .text3 {
+  font-size: 1.19vw;
+  margin-right: 0.26vw;
+  line-height: 1.4;
+  font-weight: 200;
+}
+.p-box .ct48-section13 .item .text4 {
+  font-size: 2.71vw;
+  font-weight: 200;
+}
+.p-box .ct48-section13 .item .icon {
+  width: 2.08vw;
+  flex-shrink: 0;
+  align-self: flex-end;
+}
+.p-box .ct48-section14 {
+  background: url(../images/ct48-img060.html) no-repeat center;
+  background-size: cover;
+  padding: 6.77vw 0 2.08vw;
+}
+.p-box .ct48-section14 .mxw-box {
+  max-width: 88.54%;
+}
+.p-box .ct48-section14 h1 {
+  font-size: 2.08vw;
+  font-family: "Alibaba-PuHuiTi-Medium";
+  color: #fff;
+  line-height: 1.1;
+  font-weight: 400;
+  margin-bottom: 5.21vw;
+}
+.p-box .ct48-section14 .itembox {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+.p-box .ct48-section14 .item {
+  width: 25%;
+  display: flex;
+  align-items: flex-start;
+}
+.p-box .ct48-section14 .item:nth-child(4) ~ .item {
+  margin-top: 4%;
+}
+.p-box .ct48-section14 .item .icon {
+  flex-shrink: 0;
+  margin-right: 1.04vw;
+  width: 2.6vw;
+}
+.p-box .ct48-section14 .item .info {
+  min-width: 0;
+  flex-grow: 1;
+}
+.p-box .ct48-section14 .item .info .text1 {
+  font-size: 0.83vw;
+  color: #fff;
+  font-family: "Alibaba-PuHuiTi-Medium";
+  margin-bottom: 0.52vw;
+}
+.p-box .ct48-section14 .item .info .text2 {
+  font-size: 0.73vw;
+  color: #d1d1d1;
+  line-height: 1.8;
+  font-family: "Alibaba-PuHuiTi-Regular";
+}
+.p-box .ct48-section14 .tip {
+  color: #f1f1f1;
+  font-size: 0.63vw;
+  line-height: 1.4;
+  margin-top: 4.69vw;
+  font-family: "Alibaba-PuHuiTi-Regular";
+}
+/* ==================== ct48 样式 - PC端 End ==================== */
+/* ==================== ct48 样式 - 移动端 Start ==================== */
+.m-box {
+  /* ---------------------- 板块一 start ----------------------  */
+  /* ---------------------- 板块一 end ----------------------  */
+  /* ---------------------- 板块二 start ----------------------  */
+  /* ---------------------- 板块二 end ----------------------  */
+  /* ---------------------- 板块三 start ----------------------  */
+  /* ---------------------- 板块三 end ----------------------  */
+  /* ---------------------- 板块四 start ----------------------  */
+  /* ---------------------- 板块四 end ----------------------  */
+  /* ---------------------- 板块五 start ----------------------  */
+  /* ---------------------- 板块五 end ----------------------  */
+  /* ---------------------- 板块六 start ----------------------  */
+  /* ---------------------- 板块六 end ----------------------  */
+  /* ---------------------- 板块七 start ----------------------  */
+  /* ---------------------- 板块七 end ----------------------  */
+  /* ---------------------- 板块八 start ----------------------  */
+  /* ---------------------- 板块八 end ----------------------  */
+  /* ---------------------- 板块九 start ----------------------  */
+  /* ---------------------- 板块九 end ----------------------  */
+  /* ---------------------- 板块十 start ----------------------  */
+  /* ---------------------- 板块十 end ----------------------  */
+  /* ---------------------- 板块十一 start ----------------------  */
+  /* ---------------------- 板块十一 end ----------------------  */
+  /* ---------------------- 板块十二 start ----------------------  */
+  /* ---------------------- 板块十二 end ----------------------  */
+  /* ---------------------- 板块十三 start ----------------------  */
+  /* ---------------------- 板块十三 end ----------------------  */
+  /* ---------------------- 板块十四 start ----------------------  */
+  /* ---------------------- 板块十四 end ----------------------  */
+  /* ---------------------- 板块十五 start ----------------------  */
+  /* ---------------------- 板块十五 end ----------------------  */
+}
+.m-box .mxw-box {
+  padding-left: 8vw;
+  padding-right: 8vw;
+  width: 100%;
+}
+.m-box .ct48-title {
+  color: #fff;
+  text-align: center;
+}
+.m-box .ct48-title .title-text1 {
+  font-size: 6vw;
+  line-height: 1.1;
+  margin-bottom: 3.77vw;
+  font-family: "Alibaba-PuHuiTi-Medium";
+}
+.m-box .ct48-title .title-text2 {
+  font-size: 3.2vw;
+  line-height: 1.6;
+  font-family: "Alibaba-PuHuiTi-Light";
+}
+.m-box .ct48-section1 {
+  position: relative;
+}
+.m-box .ct48-section1 .ct48-video {
+  width: 100%;
+  height: 100vh;
+}
+.m-box .ct48-section1 .ct48-video video {
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+  object-fit: cover;
+}
+.m-box .ct48-section1 .info {
+  color: #fff;
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  padding-top: 80px;
+}
+.m-box .ct48-section1 .info h1 {
+  font-size: 12vw;
+  margin-bottom: 3.2vw;
+  background: linear-gradient(to bottom, #fff, #bad9ff);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-family: "Alibaba-PuHuiTi-Medium";
+}
+.m-box .ct48-section1 .info h2 {
+  border: 1px solid #fff;
+  border-radius: 100px;
+  font-size: 4.13vw;
+  font-weight: 200;
+  line-height: 1.1;
+  padding: 0.93vw 2.67vw;
+  margin-bottom: 3.6vw;
+  font-family: "Alibaba-PuHuiTi-Light";
+}
+.m-box .ct48-section1 .info h3 {
+  font-size: 4.47vw;
+  font-weight: 200;
+  text-align: center;
+  font-family: "Alibaba-PuHuiTi-Light";
+}
+.m-box .ct48-section2 {
+  background: url(../images/ct48-img031.html) no-repeat center;
+  background-size: cover;
+  padding-top: 20.8vw;
+  padding-bottom: 16.67vw;
+}
+.m-box .ct48-section2 .itembox {
+  width: 100%;
+}
+.m-box .ct48-section2 .item {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.m-box .ct48-section2 .item:nth-child(1) {
+  margin-bottom: 1.73vw;
+}
+.m-box .ct48-section2 .item:nth-child(1) img:nth-child(1) {
+  width: 39.07vw;
+}
+.m-box .ct48-section2 .item:nth-child(1) img:nth-child(2) {
+  width: 40.93vw;
+  margin-top: 0.67vw;
+}
+.m-box .ct48-section2 .item:nth-child(2) {
+  margin-bottom: 1.73vw;
+}
+.m-box .ct48-section2 .item:nth-child(2) img:nth-child(1) {
+  width: 47.73vw;
+}
+.m-box .ct48-section2 .item:nth-child(2) img:nth-child(2) {
+  width: 32.4vw;
+}
+.m-box .ct48-section2 .item:nth-child(3) {
+  margin-bottom: 2vw;
+}
+.m-box .ct48-section2 .item:nth-child(3) img:nth-child(1) {
+  width: 33.6vw;
+}
+.m-box .ct48-section2 .item:nth-child(3) img:nth-child(2) {
+  width: 45.6vw;
+}
+/* ---------------------- ct48 - 板块2.1 start ----------------------  */
+.m-box .ct48-section2-1 {
+  padding-top: 20.8vw;
+  padding-bottom: 16.67vw;
+  position: relative;
+  background: url(../images/ct48-img008.html) no-repeat center;
+  background-size: cover;
+}
+
+.m-box .ct48-section2-1 .itembox {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.m-box .ct48-section2-1 .item {
+  position: relative;
+}
+
+.m-box .ct48-section2-1 .item:nth-child(1) {
+  width: 37.93vw;
+}
+
+.m-box .ct48-section2-1 .item:nth-child(2) {
+  width: 40.8vw;
+}
+
+.m-box .ct48-section2-1 .item:nth-child(3) {
+  width: 48vw;
+  margin-top: 2vw;
+}
+.m-box .ct48-section2-1 .item:nth-child(4) {
+  width: 33vw;
+  margin-top: 2vw;
+}
+.m-box .ct48-section2-1 .item:nth-child(5) {
+  width: 33.6vw;
+  margin-top: 2vw;
+}
+.m-box .ct48-section2-1 .item:nth-child(6) {
+  width: 45.33vw;
+  margin-top: 2vw;
+}
+
+.m-box .ct48-section2-1 .item .bg-img {
+  border-radius: 2.67vw;
+  overflow: hidden;
+}
+
+.m-box .ct48-section2-1 .item .bg-img img {
+  width: 100%;
+}
+
+.m-box .ct48-section2-1 .item .title {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: #fff;
+  font-family: "Alibaba-PuHuiTi-Regular";
+  font-size: 4.4vw;
+  line-height: 1.4;
+  text-align: center;
+  width: 100%;
+  padding: 3vw 1vw;
+  zoom: 0.5;
+}
+.m-box .ct48-section2-1 .item .title .text2{
+  font-family: "Alibaba-PuHuiTi-Light";
+  opacity: 0.8;
+  font-size: 4vw;
+}
+
+/* ---------------------- ct48 - 板块2.1 end ----------------------  */
+.m-box .ct48-section3 {
+  position: relative;
+  margin-top: -2px;
+}
+.m-box .ct48-section3 .info {
+  padding-top: 17.33vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  z-index: 2;
+  text-align: center;
+}
+.m-box .ct48-section3 .info h1 {
+  font-size: 8vw;
+  line-height: 1.1;
+  margin-bottom: 2.67vw;
+  font-family: "Alibaba-PuHuiTi-Medium";
+}
+.m-box .ct48-section3 .info h2 {
+  font-size: 3.2vw;
+  line-height: 1.2;
+  font-family: "Alibaba-PuHuiTi-Light";
+}
+.m-box .ct48-section3 .itembox {
+  margin-top: 11.13vw;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.12);
+  border-radius: 2.67vw;
+  display: flex;
+  align-items: center;
+  padding: 5.33vw 0;
+}
+.m-box .ct48-section3 .item {
+  width: 50%;
+  position: relative;
+  text-align: center;
+}
+.m-box .ct48-section3 .item:last-child:after {
+  display: none;
+}
+.m-box .ct48-section3 .item:after {
+  content: "";
+  display: block;
+  width: 0.53vw;
+  height: 20.2vw;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(255, 255, 255, 0.27);
+}
+.m-box .ct48-section3 .item .text1 {
+  font-size: 3.9vw;
+  font-weight: 200;
+  line-height: 1.2;
+  height: 3em;
+  margin-bottom: 2.67vw;
+  font-family: "Alibaba-PuHuiTi-Light";
+}
+.m-box .ct48-section3 .item .text2 {
+  font-size: 3.6vw;
+  line-height: 1.2;
+  height: 3em;
+  font-family: "Alibaba-PuHuiTi-Light";
+}
+.m-box .ct48-section4 {
+  position: relative;
+}
+.m-box .ct48-section4 .info {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-top: 15.2vw;
+  color: #fff;
+  text-align: center;
+  padding-left: 5.33vw;
+  padding-right: 5.33vw;
+}
+.m-box .ct48-section4 .text3 {
+  margin-top: 8vw;
+  font-size: 4.8vw;
+  color: #fff;
+  font-weight: 200;
+  background-color: rgba(255, 255, 255, 0.15);
+  border-radius: 1.33vw;
+  padding: 1.6vw 1.87vw 2.13vw;
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3.2vw;
+  font-family: "Alibaba-PuHuiTi-Light";
+}
+.m-box .ct48-section4 .text4 {
+  font-size: 3.2vw;
+  color: rgba(255, 255, 255, 0.51);
+  font-weight: 200;
+  font-family: "Alibaba-PuHuiTi-Light";
+}
+.m-box .ct48-section5 {
+  position: relative;
+}
+.m-box .ct48-section5 .info {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding-top: 14.4vw;
+  color: #fff;
+  text-align: center;
+  padding-right: 6vw;
+  padding-left: 6vw;
+}
+.m-box .ct48-section5 .text1 {
+  font-size: 8vw;
+  line-height: 1.4;
+  margin-bottom: 7.2vw;
+  font-family: "Alibaba-PuHuiTi-Medium";
+}
+.m-box .ct48-section5 .text2 {
+  font-size: 3.2vw;
+  line-height: 1.6;
+  font-family: "Alibaba-PuHuiTi-Light";
+}
+.m-box .ct48-section6 {
+  position: relative;
+}
+.m-box .ct48-section6 .info {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  color: #fff;
+  padding-top: 12vw;
+  padding-left: 6vw;
+  padding-right: 6vw;
+}
+.m-box .ct48-section6 h1 {
+  font-size: 8vw;
+  line-height: 1.1;
+  margin-bottom: 4.8vw;
+  font-family: "Alibaba-PuHuiTi-Medium";
+}
+.m-box .ct48-section6 .desc {
+  font-size: 3.2vw;
+  line-height: 1.8;
+  font-family: "Alibaba-PuHuiTi-Light";
+}
+.m-box .ct48-section7 {
+  position: relative;
+}
+.m-box .ct48-section7 .info {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding-top: 13.33vw;
+  color: #fff;
+  text-align: center;
+  padding-left: 6vw;
+  padding-right: 6vw;
+}
+.m-box .ct48-section7 h1 {
+  font-size: 8vw;
+  margin-bottom: 5.33vw;
+  font-family: "Alibaba-PuHuiTi-Medium";
+}
+.m-box .ct48-section7 .desc {
+  font-size: 3.2vw;
+  line-height: 1.8;
+  margin-bottom: 18.67vw;
+  font-family: "Alibaba-PuHuiTi-Light";
+}
+.m-box .ct48-section7 .itembox {
+  display: flex;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.12);
+  border-radius: 2.67vw;
+  width: 66vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 13.33vw;
+}
+.m-box .ct48-section7 .item {
+  width: 50%;
+  position: relative;
+  text-align: center;
+  padding-top: 5.87vw;
+  padding-bottom: 5.57vw;
+}
+.m-box .ct48-section7 .item:first-child:after {
+  content: "";
+  display: block;
+  width: 1px;
+  background-color: rgba(255, 255, 255, 0.27);
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 11.33vw;
+}
+.m-box .ct48-section7 .item span {
+  font-size: 3.6vw;
+  margin-right: 1.33vw;
+  font-family: "Alibaba-PuHuiTi-Light";
+}
+.m-box .ct48-section7 .item strong {
+  font-size: 5.1vw;
+  font-weight: 200;
+  font-family: "Alibaba-PuHuiTi-Light";
+}
+.m-box .ct48-section8 {
+  position: relative;
+}
+.m-box .ct48-section8 .info {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  text-align: center;
+  padding-top: 50px;
+  padding-left: 6vw;
+  padding-right: 6vw;
+}
+.m-box .ct48-section8 h1 {
+  font-size: 6.4vw;
+  line-height: 1.2;
+  margin-bottom: 4vw;
+  font-family: "Alibaba-PuHuiTi-Medium";
+}
+.m-box .ct48-section8 .desc {
+  font-size: 3.2vw;
+  line-height: 1.8;
+  font-family: "Alibaba-PuHuiTi-Light";
+}
+.m-box .ct48-section8 .text1 {
+  margin-top: 15.93vw;
+  font-size: 3.6vw;
+  background-color: rgba(255, 255, 255, 0.09);
+  border-radius: 1.33vw;
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2.67vw 1.87vw 2.4vw;
+  font-family: "Alibaba-PuHuiTi-Light";
+  line-height: 1.2;
+}
+.m-box .ct48-section8 .text1 strong {
+  font-size: 4.8vw;
+  margin-left: 1.33vw;
+  margin-right: 1.33vw;
+  font-weight: 400;
+  font-family: "Alibaba-PuHuiTi-Medium";
+}
+.m-box .ct48-section9 .text1 {
+  margin-top: 10.6vw;
+}
+.m-box .ct48-section11 {
+  position: relative;
+}
+.m-box .ct48-section11 .info {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  padding-top: 10.67vw;
+  color: #fff;
+  padding-left: 6vw;
+  padding-right: 6vw;
+}
+.m-box .ct48-section11 .info h1 {
+  font-size: 6.4vw;
+  line-height: 1.2;
+  margin-bottom: 4.67vw;
+  font-family: "Alibaba-PuHuiTi-Medium";
+}
+.m-box .ct48-section11 .info .desc {
+  font-size: 3.2vw;
+  line-height: 1.8;
+  font-family: "Alibaba-PuHuiTi-Light";
+}
+.m-box .ct48-section11 .itembox {
+  position: absolute;
+  bottom: 10vw;
+  left: 50%;
+  margin-left: -36.93vw;
+  display: flex;
+  align-items: stretch;
+  background-color: rgba(255, 255, 255, 0.12);
+  border-radius: 2.67vw;
+  width: 70vw;
+  color: #fff;
+}
+.m-box .ct48-section11 .item {
+  width: 50%;
+  position: relative;
+  text-align: center;
+  padding-top: 6vw;
+  padding-bottom: 6vw;
+  line-height: 1.6;
+  font-size: 3.2vw;
+  padding-left: 4vw;
+  padding-right: 4vw;
+}
+.m-box .ct48-section11 .item:first-child:after {
+  content: "";
+  display: block;
+  width: 1px;
+  background-color: rgba(255, 255, 255, 0.27);
+  position: absolute;
+  right: 0;
+  top: 50%;
+  height: 23.73vw;
+  transform: translateY(-50%);
+}
+.m-box .ct48-section11 .item .text1 span {
+  font-size: 3.2vw;
+}
+.m-box .ct48-section11 .item .text1 strong {
+  font-size: 7.97vw;
+  font-weight: 200;
+  line-height: 1.8;
+}
+.m-box .ct48-section11 .item .text2 {
+  margin-top: 2.67vw;
+  font-size: 3.6vw;
+}
+.m-box .ct48-section12 {
+  background: url(../images/ct48-img031.html) no-repeat center;
+  background-size: cover;
+  padding-top: 14.53vw;
+  padding-bottom: 8.8vw;
+}
+.m-box .ct48-section12 h1 {
+  font-size: 6.4vw;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 11.47vw;
+  font-family: "Alibaba-PuHuiTi-Medium";
+}
+.m-box .ct48-section12 .itembox {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-top: 10.67vw;
+}
+.m-box .ct48-section12 .item {
+  width: 48%;
+  text-align: center;
+}
+.m-box .ct48-section12 .item .image {
+  border-radius: 4vw;
+  overflow: hidden;
+}
+.m-box .ct48-section12 .item .image img {
+  width: 100%;
+}
+.m-box .ct48-section12 .item .text {
+  font-size: 3.2vw;
+  margin-top: 1.87vw;
+  color: #fff;
+  font-family: "Alibaba-PuHuiTi-Regular";
+}
+.m-box .ct48-section12 .item:nth-child(2n) {
+  margin-left: 4%;
+}
+.m-box .ct48-section12 .item:nth-child(2) ~ .item {
+  margin-top: 3.07vw;
+}
+.m-box .ct48-section13 {
+  position: relative;
+}
+.m-box .ct48-section13 .info {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  padding-top: 12vw;
+}
+.m-box .ct48-section13 h1 {
+  font-size: 8vw;
+  line-height: 1.2;
+  margin-bottom: 5.33vw;
+  font-family: "Alibaba-PuHuiTi-Medium";
+}
+.m-box .ct48-section13 .desc {
+  font-size: 3.2vw;
+  line-height: 1.8;
+  font-family: "Alibaba-PuHuiTi-Light";
+}
+.m-box .ct48-section14 {
+  position: relative;
+}
+.m-box .ct48-section14 .info {
+  padding-top: 14vw;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+}
+.m-box .ct48-section14 .mxw-box {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.m-box .ct48-section14 .text1 {
+  display: table;
+  font-size: 4.53vw;
+  color: #111927;
+  background: url(../images/ct48-img049.png) no-repeat center;
+  background-size: 100%;
+  border-radius: 1.6vw;
+  overflow: hidden;
+  padding: 1.33vw 2.67vw;
+  font-family: "Alibaba-PuHuiTi-Regular";
+  line-height: 1;
+  margin-bottom: 3.33vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+.m-box .ct48-section14 .text2 {
+  font-size: 8vw;
+  color: #fff;
+  margin-bottom: 7.6vw;
+  font-family: "Alibaba-PuHuiTi-Medium";
+}
+.m-box .ct48-section14 .itembox {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  zoom: 0.8;
+  padding-left: 6vw;
+  padding-right: 6vw;
+}
+.m-box .ct48-section14 .item {
+  display: flex;
+  align-items: flex-end;
+  color: #fff;
+  width: 48%;
+}
+.m-box .ct48-section14 .item:nth-child(1) {
+  margin-right: 4%;
+}
+.m-box .ct48-section14 .item .text3 {
+  font-size: 2.67vw;
+  margin-right: 0.67vw;
+  line-height: 1.4;
+  font-family: "Alibaba-PuHuiTi-Light";
+  text-align: left;
+}
+.m-box .ct48-section14 .item .text4 {
+  font-size: 6.93vw;
+  font-family: "Alibaba-PuHuiTi-Light";
+}
+.m-box .ct48-section14 .item .icon {
+  width: 5.33vw;
+  flex-shrink: 0;
+  align-self: flex-end;
+  font-family: "Alibaba-PuHuiTi-Light";
+}
+.m-box .ct48-section15 {
+  background: url(../images/ct48-img060.html) no-repeat center;
+  background-size: cover;
+  padding-top: 14.53vw;
+  padding-bottom: 8.8vw;
+}
+.m-box .ct48-section15 .mxw-box {
+  padding-left: 4vw;
+  padding-right: 4vw;
+}
+.m-box .ct48-section15 h1 {
+  font-size: 5.87vw;
+  font-family: "Alibaba-PuHuiTi-Medium";
+  color: #fff;
+  line-height: 1.1;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 16vw;
+}
+.m-box .ct48-section15 .itembox {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+.m-box .ct48-section15 .item {
+  width: 48%;
+  display: flex;
+  align-items: stretch;
+}
+.m-box .ct48-section15 .item.row-item {
+  width: 100%;
+}
+.m-box .ct48-section15 .item:nth-child(2n) {
+  margin-left: 4%;
+}
+.m-box .ct48-section15 .item:nth-child(2) ~ .item {
+  margin-top: 10.67vw;
+}
+.m-box .ct48-section15 .item .icon {
+  flex-shrink: 0;
+  margin-right: 2.67vw;
+  width: 8vw;
+}
+.m-box .ct48-section15 .item .info {
+  min-width: 0;
+  flex-grow: 1;
+}
+.m-box .ct48-section15 .item .info .text1 {
+  font-size: 3.73vw;
+  color: #fff;
+  font-family: "Alibaba-PuHuiTi-Medium";
+  margin-bottom: 2.67vw;
+}
+.m-box .ct48-section15 .item .info .text2 {
+  font-size: 3.2vw;
+  color: #d1d1d1;
+  line-height: 1.6;
+  font-family: "Alibaba-PuHuiTi-Regular";
+}
+.m-box .ct48-section15 .tip {
+  color: #f1f1f1;
+  font-size: 3.2vw;
+  line-height: 1.6;
+  margin-top: 10.67vw;
+  font-family: "Alibaba-PuHuiTi-Regular";
+}
+/* ==================== ct48 样式 - 移动端 End ==================== */

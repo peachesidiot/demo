@@ -1,0 +1,5 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+en.urovo.com	TRUE	/	FALSE	1999999999	PHPSESSID	cal80gq4euh62ia6o8cu5cnvu0
+en.urovo.com	TRUE	/	FALSE	1999999999	siteape_admin_think_language	en
+

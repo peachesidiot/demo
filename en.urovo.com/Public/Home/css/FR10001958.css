@@ -1,0 +1,774 @@
+.FR1000Box{
+	background-color: #000406;
+}
+.FR1000Box .FRpart{
+	position: relative;
+	overflow: hidden;
+}
+.FR1000Box .customPart{
+	padding-top: 100px;
+	padding-bottom: 100px;
+	min-height: 850px;
+	box-sizing: border-box;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.FR1000Box .customPart .textBox{
+	max-width: 90%;
+	margin: auto;
+}
+.FR1000Box .customPart .imgBox{
+	margin-top: 40px;
+	text-align: center;
+}
+.FR1000Box .customPart .imgBox img{
+	width: 100%;
+}
+.FR1000Box .FRpart .bgBox img{
+	display: block;
+	width: 100%;
+}
+.FR1000Box .comwidth{
+	max-width: 1400px;
+	width: 90%;
+	margin: auto;
+}
+.comtitle.center{
+	text-align: center;
+}
+.comtitle .t1{
+	font-size: 72px;
+    line-height: 1.2;
+    background-image: -webkit-linear-gradient(top left, #07ddf3, #2985e5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.comtitle .t2{
+	margin-top: 20px;
+	font-size: 36px;
+    line-height: 1.2;
+    background-image: -webkit-linear-gradient(top left, #07ddf3, #2985e5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.comtitle .t3{
+	font-weight: bold;
+	font-size: 44px;
+	/* max-width: 900px; */
+	margin: auto;
+    line-height: 1.5;
+    background-image: -webkit-linear-gradient(top left, #07ddf3, #2985e5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.comtitle .t4{
+	margin-top: 25px;
+	font-size: 24px;
+    line-height: 1.7;
+    color: #b2b2b2;
+
+}
+.FRpart6 .comtitle .t4,.FRpart10 .comtitle .t4,.FRpart8 .comtitle .t4{
+	max-width: 900px;
+	margin: 25px auto 0;
+
+}
+.FR1000Box .FRpart1 .wrap{
+	position: absolute;
+	left: 0;
+	top: 185px;
+	top: 24vh;
+	width: 100%;
+	text-align: center;
+}
+.FR1000Box .FRpart1 .imgBox{
+	margin-top: 12.5%;
+	text-align: center;
+	overflow: hidden;
+}
+.FR1000Box .FRpart1 .imgBox img{
+	max-width: 53%;
+}
+.FR1000Box .FRpart2{
+}
+.FR1000Box .FRpart2 .textBox{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 2;
+}
+.FR1000Box .FRpart2 .textBox .wrap{
+	max-width: 50%;
+}
+.FR1000Box .FRpart2 .iconBox{
+	margin-top: 40px;
+}
+.FR1000Box .FRpart2 .iconBox ul li{
+	float: left;
+	margin-right: 40px;
+	color: #FFFFFF;
+	font-size: 18px;
+}
+.FR1000Box .FRpart2 .iconBox ul li img{
+	display: inline-block;
+	margin-right: 10px;
+}
+.FR1000Box .FRpart2 .imgBox{
+	position: absolute;
+	right: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	text-align: right;
+	width: 100%;
+}
+.FR1000Box .FRpart2 .imgBox img{
+	width: 62%;
+}
+.FR1000Box .FRpart3 .textBox{
+	position: absolute;
+	left: 50%;
+	top: 27%;
+	transform: translateX(-50%);
+	z-index: 2;
+}
+.FR1000Box .FRpart3 .textBox .wrap{
+	max-width: 80%;
+}
+.FR1000Box .FRpart3 .textBox .comtitle .t4{
+	max-width: 520px;
+	width: 100%;
+}
+.FR1000Box .FRpart4 .textBox{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	z-index: 2;
+}
+.FR1000Box .FRpart4 .textBox .comtitle .t4{
+	max-width: 750px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	min-height: 130px;
+}
+.FR1000Box .FRpart5{
+	position: relative;
+	background-color: #000406;
+}
+.FR1000Box .FRpart5 .textBox{
+	position: absolute;
+	top: 28vh;
+	left: 50%;
+	transform: translateX(-50%);
+	text-align: right;
+	z-index: 2;
+}
+.FR1000Box .FRpart5 .textBox .wrap{
+	display: inline-block;
+	text-align: left;
+	max-width: 560px;
+	padding-right: 20px;
+	box-sizing: border-box;
+}
+.FR1000Box .FRpart5 .imgBox{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	text-align: left;
+}
+.FR1000Box .FRpart5 .imgBox img{
+	width: 72.6%;
+}
+.FR1000Box .FRpart6 .textBox{
+	position: absolute;
+	bottom: 12vh;
+	left: 50%;
+	transform: translateX(-50%);
+	text-align: right;
+	z-index: 2;
+}
+.FR1000Box .FRpart6 .imgBox{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	text-align: center;
+}
+.FR1000Box .FRpart6 .imgBox img{
+	width: 62.56%;
+}
+.FR1000Box .FRpart7 .textBox{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	text-align: right;
+	z-index: 2;
+}
+.FR1000Box .FRpart7 .textBox .wrap{
+	display: inline-block;
+	text-align: left;
+	max-width: 610px;
+	box-sizing: border-box;
+	padding-right: 40px;
+}
+.FR1000Box .FRpart7 .textBox .comtitle .t4{
+	max-width: 520px;
+	width: 100%;
+}
+.FR1000Box .FRpart7 .iconBox{
+	margin-top: 60px;
+}
+.FR1000Box .FRpart7 .iconBox ul li{
+	float: left;
+	margin-right: 40px;
+	color: #FFFFFF;
+	font-size: 18px;
+}
+.FR1000Box .FRpart7 .iconBox ul li img{
+	display: inline-block;
+	vertical-align: bottom;
+	margin-right: 10px;
+}
+.FR1000Box .FRpart8{
+	/*padding-top: 440px;
+	padding-bottom: 150px;
+	background-position: top center; 
+	background-repeat: no-repeat;
+	background-size: 100% auto;*/
+}
+.FR1000Box .FRpart8 .textBox{
+	position: absolute;
+	top: 100px;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 90%;
+	margin: auto;
+	z-index: 2;
+}
+.FR1000Box .FRpart9{
+}
+.FR1000Box .FRpart9 .textBox{
+	position: absolute;
+	top: 10vh;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 2;
+}
+.FR1000Box .FRpart9 .textBox .wrap{
+	max-width: 570px;
+	padding-left: 30px;
+	box-sizing: border-box;
+}
+.FR1000Box .FRpart9 .imgBox{
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 100%;
+	text-align: right;
+}
+.FR1000Box .FRpart9 .imgBox img{
+	width: 75.3%;
+}
+.FR1000Box .FRpart10{
+	position: relative;
+}
+.FR1000Box .FRpart10 .imgBox{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+}
+.FR1000Box .FRpart10 .imgBox img{
+	max-width: 100%;
+}
+.FR1000Box .FRpart10 .textBox{
+	position: absolute;
+	top: 5vh;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 2;
+}
+.FR1000Box .FRpart10 .textBox ul{
+	margin: 40px auto 0px;
+	text-align: center;
+	font-size: 0;
+}
+.FR1000Box .FRpart10 .textBox ul li{
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 70px;
+	min-width: 150px;
+	border: rgba(88,150,190,0.13) solid 1px;
+	border-radius: 10px;
+	padding: 0px 10px;
+	box-sizing: border-box;
+	font-size: 32px;
+    line-height: 1.8;
+    background-image: -webkit-linear-gradient(top left, #07ddf3, #2985e5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.FR1000Box .FRpart10 .textBox ul li:last-child{
+	margin-right: 0;
+}
+.FR1000Box .FRpart11{
+	padding-bottom: 130px;
+	background-position: bottom center;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+}
+.FR1000Box .FRpart11 .textBox ul{
+	margin: 60px auto 0px;
+	max-width: 1195px;
+	width: 100%;
+	font-size: 0;
+}
+.FR1000Box .FRpart11 .textBox ul li{
+	display: inline-block;
+	vertical-align: top;
+	width: 23.5%;
+	margin-right: 2%;
+	margin-bottom: 2%;
+	border-radius: 20px;
+	overflow: hidden;
+}
+.FR1000Box .FRpart11 .textBox ul li:nth-child(4n){
+	margin-right: 0;
+}
+.FR1000Box .FRpart11 .textBox ul li img{
+	width: 100%;
+}
+@media screen and (max-width: 1680px){
+	.comtitle .t1{
+		font-size: 64px;
+	}
+	.comtitle .t2{
+		font-size: 32px;
+	}
+	.comtitle .t3{
+		font-size: 40px;
+	}
+	.comtitle .t4{
+		font-size: 16px;
+	}
+	.FR1000Box .customPart{
+		padding-top: 5.2%;
+		padding-bottom: 5.2%;
+	}
+	.FR1000Box .FRpart1 .wrap{
+		top: 16vh;
+	}
+	.FR1000Box .FRpart1 .imgBox{
+		margin-top: 10%;
+	}
+	.FR1000Box .FRpart2 .iconBox ul li{
+		font-size: 16px;
+	}
+	.FR1000Box .FRpart2 .iconBox ul li img{
+		max-width: 28px;
+	}
+	.FR1000Box .FRpart7 .iconBox ul li{
+		font-size: 16px;
+	}
+	.FR1000Box .FRpart7 .iconBox ul li img{
+		max-width: 30px;
+	}
+	/*.FR1000Box .FRpart8{
+		padding-top: 23%;
+		padding-bottom: 7.8%;
+	}*/
+	.FR1000Box .FRpart8 .textBox{
+		top: 8vh;
+	}
+	.FR1000Box .FRpart11{
+		padding-bottom: 6.8%;
+	}
+	.FR1000Box .FRpart10 .textBox ul li{
+		font-size: 28px;
+	}
+}
+@media screen and (max-width: 1536px){
+	.comtitle .t1{
+		font-size: 54px;
+	}
+	.comtitle .t2{
+		font-size: 24px;
+		margin-top: 15px;
+	}
+	.comtitle .t3{
+		font-size: 32px;
+	}
+	.comtitle .t4{
+		font-size: 18px;
+		margin-top: 15px;
+	}
+	.FR1000Box .FRpart1 .wrap{
+		top: 185px;
+		top:25vh;
+	}
+	.FR1000Box .FRpart2 .iconBox ul li{
+		font-size: 14px;
+	}
+	.FR1000Box .FRpart2 .iconBox ul li img{
+		max-width: 24px;
+		margin-right: 6px;
+	}
+	.FR1000Box .FRpart7 .iconBox ul li{
+		font-size: 14px;
+	}
+	.FR1000Box .FRpart7 .iconBox ul li img{
+		max-width: 25px;
+		margin-right: 6px;
+	}
+	.FR1000Box .FRpart10 .textBox{
+		top: 10vh;
+	}
+	.FR1000Box .FRpart10 .textBox ul li{
+		font-size: 24px;
+	}
+	.FR1000Box .FRpart5 .textBox .wrap{
+		max-width: 520px;
+	}
+	.FR1000Box .FRpart7 .textBox .wrap{
+		max-width: 480px;
+	}
+	.FR1000Box .FRpart9 .textBox .wrap{
+		max-width: 40%;
+	}
+	.FR1000Box .FRpart10 .textBox ul li{
+		margin-right: 60px;
+	}
+}
+@media screen and (max-width: 1280px){
+	.comtitle .t1{
+		font-size: 44px;
+	}
+	.comtitle .t2{
+		font-size: 20px;
+		margin-top: 10px;
+	}
+	.comtitle .t3{
+		font-size: 28px;
+		max-width: 900px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.FR1000Box .FRpart1 .wrap.pub .comtitle .t4{max-width: 700px;	margin-left: auto;
+		margin-right: auto;}
+	.comtitle .t4{
+		margin-top: 10px;
+	}
+	.FRpart6 .comtitle .t4,.FRpart10 .comtitle .t4,.FRpart8 .comtitle .t4{
+		max-width: 700px;
+	
+	
+	}
+	.FR1000Box .FRpart1 .wrap{
+		top:31vh;
+	}
+	.FR1000Box .FRpart5 .textBox .wrap{
+		max-width: 420px;
+	}
+	.FR1000Box .FRpart7 .iconBox{
+		margin-top: 50px;
+	}
+	.FR1000Box .FRpart7 .textBox .wrap{
+		max-width: 400px;
+	}
+	.FR1000Box .FRpart10 .textBox ul li{
+		margin-right: 50px;
+		font-size: 20px;
+	}
+	.FR1000Box .FRpart11 .textBox ul{
+		margin-top: 50px;
+	}
+}
+@media screen and (max-width: 1024px){
+	.comtitle .t1{
+		font-size: 40px;
+	}
+	.comtitle .t2{
+		font-size: 16px;
+	}
+	.FR1000Box .customPart{
+		padding-top: 70px;
+		padding-bottom: 70px;
+		/*min-height: calc(100vh - 100px);*/
+		min-height: 1px;
+	}
+	.FR1000Box .FRpart1 .wrap{
+		top: 17vh;
+	}
+	.FR1000Box .FRpart1 .imgBox{
+		margin-top: 5%;
+	}
+	.FR1000Box .FRpart3 .textBox .wrap{
+		max-width: 40%;
+	}
+	.FR1000Box .FRpart5 .textBox{
+		top: 20%;
+	}
+	.FR1000Box .FRpart5 .textBox .wrap{
+		max-width: 40%;
+	}
+	.FR1000Box .FRpart6 .textBox{
+		bottom: 5vh;
+	}
+	.FR1000Box .FRpart7 .iconBox{
+		margin-top: 40px;
+	}
+	/*.FR1000Box .FRpart8{
+		padding-top: 23%;
+		padding-bottom: 7.8%;
+	}*/
+	.FR1000Box .FRpart8 .textBox{
+		top: 5vh;
+	}
+	.FR1000Box .FRpart9 .textBox{
+		top: 5vh;
+	}
+	.FR1000Box .FRpart10 .textBox{
+		top: 5vh;
+	}
+	.FR1000Box .FRpart10 .textBox ul{
+		margin-top: 30px;
+	}
+	.FR1000Box .FRpart10 .textBox ul li{
+		min-width: 120px;
+		margin-right: 40px;
+	}
+	.FR1000Box .FRpart11{
+		padding-bottom: 70px;
+	}
+	.FR1000Box .FRpart11 .textBox ul{
+		margin-top: 40px;
+	}
+}
+@media screen and (max-width: 768px){
+	.comtitle .t3{
+		font-size: 24px;
+	}
+	.FR1000Box .FRpart5 .textBox{
+		top: 5vh;
+	}
+	.FR1000Box .FRpart7 .textBox .wrap{
+		max-width: 50%;
+		padding-right: 0;
+	}
+	.FR1000Box .FRpart7 .iconBox{
+		margin-top: 30px;
+	}
+	.FR1000Box .FRpart10 .textBox{
+		top: 4vh;
+	}
+	.FR1000Box .FRpart10 .textBox ul{
+		margin-top: 20px;
+	}
+	.FR1000Box .FRpart10 .textBox ul li{
+		font-size: 18px;
+	}
+	
+}
+@media screen and (max-width: 767px){
+	.comtitle .t1{
+		font-size: 0.72rem;
+	}
+	.comtitle .t2{
+		font-size: 0.36rem;
+		margin-top: 0.2rem;
+	}
+	.comtitle .t3{
+		font-size: 0.44rem;
+	}
+	.comtitle .t4{
+		margin-top: 0.2rem;
+		font-size: 0.24rem;
+	}
+	.FR1000Box .customPart{
+		padding-top: 0.8rem;
+		padding-bottom: 0.8rem;
+		/*min-height: calc(100vh - 100px);*/
+	}
+	.FR1000Box .customPart .imgBox{
+		margin-top: 0.5rem;
+	}
+	.FR1000Box .FRpart1 .wrap{
+		top: 17vh;
+	}
+	.FR1000Box .FRpart1 .imgBox{
+		margin-top: 10%;
+	}
+	.FR1000Box .FRpart1 .imgBox img{
+		max-width: 100%;
+	}
+	.FR1000Box .FRpart2 .conBox{
+		position: absolute;
+		left: 0;
+		top: 7vh;
+		width: 100%;
+	}
+	.FR1000Box .FRpart2 .textBox,
+	.FR1000Box .FRpart2 .imgBox{
+		position: static;
+		transform: none;
+	}
+	.FR1000Box .FRpart2 .textBox .wrap{
+		max-width: 100%;
+	}
+	.FR1000Box .FRpart2 .imgBox{
+		margin-top: 0.6rem;
+		text-align: center;
+	}
+	.FR1000Box .FRpart2 .imgBox img{
+		width: 100%;
+	}
+	.FR1000Box .FRpart2 .iconBox{
+		margin-top: 0.3rem;
+	}
+	.FR1000Box .FRpart2 .iconBox ul li{
+		font-size: 0.18rem;
+	}
+	.FR1000Box .FRpart2 .iconBox ul li img{
+		max-width: 0.36rem;
+	}
+	.FR1000Box .FRpart3 .textBox{
+		top: 14vh;
+	}
+	.FR1000Box .FRpart3 .textBox .wrap{
+		max-width: 100%;
+	}
+	.FR1000Box .FRpart4 .textBox{
+		top: 7vh;
+		transform: translate(-50%, 0);
+	}
+	.FR1000Box .FRpart5{
+	}
+	.FR1000Box .FRpart5 .conBox{
+		position: absolute;
+		left: 0;
+		top: 7vh;
+		width: 100%;
+	}
+	.FR1000Box .FRpart5 .textBox{
+		position: static;
+		transform: none;
+	}
+	.FR1000Box .FRpart5 .textBox .wrap{
+		max-width: 100%;
+	}
+	.FR1000Box .FRpart5 .imgBox{
+		position: static;
+		transform: none;
+		text-align: center;
+		margin-top: 0.5rem;
+	}
+	.FR1000Box .FRpart5 .imgBox img{
+		width: 100%;
+	}
+	.FR1000Box .FRpart6 .imgBox{
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		text-align: center;
+		overflow: hidden;
+	}
+	.FR1000Box .FRpart6 .imgBox img{
+		width: 100%;
+	}
+	.FR1000Box .FRpart6 .textBox{
+		bottom: 10vh;
+	}
+	.FR1000Box .FRpart7 .textBox{
+		top: 7vh;
+		left: 5%;
+		transform: none;
+	}
+	.FR1000Box .FRpart7 .textBox .wrap{
+		max-width: 100%;
+	}
+	.FR1000Box .FRpart7 .iconBox{
+		margin-top: 0.5rem;
+	}
+	.FR1000Box .FRpart7 .iconBox ul li{
+		font-size: 0.18rem;
+	}
+	.FR1000Box .FRpart7 .iconBox ul li img{
+		max-width: 0.4rem;
+	}
+	/*.FR1000Box .FRpart8{
+		padding-top: 7.5rem;
+		padding-bottom: 1.8rem;
+	}*/
+	.FR1000Box .FRpart8 .textBox{
+		top: 7vh;
+	}
+	.FR1000Box .FRpart9 .conBox{
+		position: absolute;
+		left: 0;
+		top: 7vh;
+		width: 100%;
+	}
+	.FR1000Box .FRpart9 .textBox{
+		position: static;
+		transform: none;
+	}
+	.FR1000Box .FRpart9 .textBox .wrap{
+		padding-left: 0;
+		max-width: 100%;
+	}
+	.FR1000Box .FRpart9 .imgBox{
+		position: static;
+		transform: none;
+		text-align: center;
+	}
+	.FR1000Box .FRpart9 .imgBox img{
+		width: 100%;
+	}
+	.FR1000Box .FRpart10 .textBox{
+		top: 7vh;
+	}
+	.FR1000Box .FRpart10 .textBox ul{
+		max-width: 5rem;
+	}
+	.FR1000Box .FRpart10 .textBox ul li{
+		min-width: 1.5rem;
+		margin-right: 0.7rem;
+		margin-bottom: 0.5rem;
+		height: 0.6rem;
+		font-size: 0.32rem;
+	}
+	.FR1000Box .FRpart10 .textBox ul li:nth-child(2n){
+		margin-right: 0;
+	}
+	.FR1000Box .FRpart11{
+		padding-top: 0.7rem;
+		padding-bottom: 0.7rem;
+	}
+	.FR1000Box .FRpart11 .textBox ul{
+		margin-top: 0.5rem;
+	}
+	.FR1000Box .FRpart11 .textBox ul li{
+		width: 47%;
+		margin-right: 6%;
+		margin-bottom: 6%;
+	}
+	.FR1000Box .FRpart11 .textBox ul li:nth-child(4n){
+		margin-right: 6%;
+	}
+	.FR1000Box .FRpart11 .textBox ul li:nth-child(2n){
+		margin-right: 0;
+	}
+}
+
+.prod-top-nav .prod-top-wrap.wd3{
+	max-width: 1400px;
+	width: 90%;
+	margin: auto;
+}

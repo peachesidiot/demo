@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>ImageTooLarge</Code>
+  <Message>Maximal size of image supported is 20971520</Message>
+  <RequestId>65E75848EE88453231C42850</RequestId>
+  <HostId>en-urovo.oss-ap-southeast-1.aliyuncs.com</HostId>
+  <EC>0040-00000001</EC>
+  <RecommendDoc>https://api.alibabacloud.com/troubleshoot?q=0040-00000001</RecommendDoc>
+</Error>
